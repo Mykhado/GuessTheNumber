@@ -9,26 +9,33 @@
   </head>
   <body>
     <h1>Bienvenue dans GTN (Guess The Number)!</h1>
-    <p>
+    <section class="description">
+    <p >
       Essai de deviner le chiffre ou le nombre choisi entre 0 et 100 par notre
       admirable Skynet grand gagnant du Shifoumi game .
     </p>
-    <form>
-      <input
-        type="text"
-        id="numberselect"
-        name="areanumber"
-        required
-        minlength="1"
-        maxlength="3"
-        size="3"
-      />
-      <input
-        type="submit"
+  </section>
+    
+      <div class="containerUser">
+        <input type="text" id="selectionNumber1" size="3" autocomplete="off" minlength="1" maxlength="1">
+        <input type="text" id="selectionNumber2" size="3" autocomplete="off" minlength="1" maxlength="1">
+        <input type="text" id="selectionNumber3" size="3" autocomplete="off" minlength="1" maxlength="1"> 
+        <br>     
+        <input
+        type="button"
         value="C'est mon dernier mot!"
-        onclick="getValue()"
+        id="btnUser"
       />
-    </form>
+      </div>
+      <div id="resultat"> </div>
+
+      <input
+      type="button"
+      value="reset"
+      id="btnReset"
+    />
+
+ 
     <script src="./index.js"></script>
   </body>
 </html>

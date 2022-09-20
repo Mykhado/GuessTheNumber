@@ -1,5 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+*{
+  font-family: 'Press Start 2P', cursive;
+}
 body {
+
   background-color: black;
   color: rgb(46, 243, 63);
   text-align: center;
+  
 }
+h1{
+  margin-top: 10%;
+}
+.description{
+  margin: 50px;
+  font-size: 1em;
+ 
+  
+}
+.description p{
+  display: inline-block;
+  text-align: center;
+  width: 680px;
+ 
+}
+#selectionNumber1,#selectionNumber2,#selectionNumber3{
+  background-color: black;
+  border-color:  rgb(46, 243, 63);
+  color:  rgb(46, 243, 63);
+  margin: 20px;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  font-size: 6em;
+}
+#btnUser{
+  cursor: pointer;
+  color: rgb(46, 243, 63) ;
+  background-color: black;
+  border-color: rgb(46, 243, 63) ;
+  margin: 20px;
+  height: 100px;
+  width: 300px;
+  font-size: 0.5em;
+}
+#btnUser:hover{
+  color: black ;
+  background-color:  rgb(46, 243, 63) ;
+  transition: ease-out 0.5s;
+}
+#resultat{
+  width: 100%;  
+  display:flex ;
+  justify-content: center;
+  transition: ease-out 0.5s;
+}
+#resultat p{
+  display: flex;
+  align-items: center;
+ justify-content: center;
+  border: solid 0.7mm rgb(46, 243, 63);
+  height: 200px;
+  width: 680px;
+  font-size: 1em;
+}
+#btnReset{
+  cursor: pointer;
+  color: rgb(46, 243, 63) ;
+  background-color: black;
+  border-color: rgb(46, 243, 63) ;
+  margin: 20px;
+  height: 100px;
+  width: 300px;
+  font-size: 1em;
+  
+}
+#btnReset:hover{
+  color: black;
+  background-color: red;
+  transition: ease-out 0.5s;
+}
+
