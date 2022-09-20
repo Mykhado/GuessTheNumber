@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Bienvenue dans GTN (Guess The Number)!</h1>
+    <p>
+      Essai de deviner le chiffre ou le nombre choisi entre 0 et 100 par notre
+      admirable Skynet grand gagnant du Shifoumi game .
+    </p>
+    <form>
+      <input
+        type="text"
+        id="numberselect"
+        name="areanumber"
+        required
+        minlength="1"
+        maxlength="3"
+        size="3"
+      />
+      <input
+        type="submit"
+        value="C'est mon dernier mot!"
+        onclick="getValue()"
+      />
+    </form>
+    <script src="./index.js"></script>
+  </body>
+</html>
